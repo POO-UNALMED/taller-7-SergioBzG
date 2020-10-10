@@ -16,7 +16,7 @@ public class Fabula extends Escrito{
 		return interpretacion;
 	}
 	public String toString() {
-		return (this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + ensenanza);
+		return (this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + ensenanza);
 	}
 	
 	public void setEnsenanza(String ensenanza) {

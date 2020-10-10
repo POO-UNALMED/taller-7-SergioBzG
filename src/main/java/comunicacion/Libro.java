@@ -18,7 +18,7 @@ public class Libro extends Escrito {
 		return interpretacion;
 	}
 	public String toString() {
-		return (this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + co_autor + "\n" +  editorial + "\n" + edicion);
+		return (this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + co_autor + "\n" +  editorial + "\n" + edicion);
 	}
 	
 	public void setCo_autor(String co_autor) {

@@ -19,7 +19,7 @@ public class Tesis extends Escrito{
 		return interpretacion;
 	}
 	public String toString() {
-		return (this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + idea + "\n" +  argumentos.length + "\n" + conclusion + "\n" + referencias);
+		return (this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + idea + "\n" +  argumentos.length + "\n" + conclusion + "\n" + referencias);
 	}
 	
 	public void setIdea(String idea) {
